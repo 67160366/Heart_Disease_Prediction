@@ -23,8 +23,9 @@ env/
 Thumbs.db
 
 # Model files
-*.pkl
 *.joblib
+# ยกเว้น cardio_model.pkl ที่ต้องใช้บน Streamlit
+!cardio_model.pkl
 
 # Misc
 *.log
